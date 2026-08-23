@@ -9,11 +9,11 @@
   ],
   "license": "ISC",
   "author": "arti gidhad",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts":{
+  "dev": "nodemon src/index.js"
+},
   "devDependencies": {
     "nodemon": "^3.1.14",
     "prettier": "^3.9.6"
